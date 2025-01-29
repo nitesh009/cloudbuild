@@ -29,3 +29,5 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/gcptraining-447016/springboot-repo/spring-boot-app'
+options:
+  logging: CLOUD_LOGGING_ONLY
