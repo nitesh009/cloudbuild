@@ -9,6 +9,6 @@ class CloudBuildController {
 
     @GetMapping("/products")
     public String getProducts() {
-        return "[{\"id\": 1, \"name\": \"Product 111\"}, {\"id\": 2, \"name\": \"Product 2\"}]";
+        return "[{\"id\": 1, \"name\": \"Product 111cts\"}, {\"id\": 2, \"name\": \"Product 2\"}]";
     }
 }
